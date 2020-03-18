@@ -6,13 +6,10 @@ def Sort_Tuple(tup):
     return tup
 
 
-# f1 = open ("tripocc_SBS-1K.xlsx","rb") # open input file for reading
 with open('out.csv', 'wb') as f: # output csv file
     writer = csv.writer(f)
     with open('tripocc_SBS-1K.csv','rb') as csvfile: # input csv file
         reader = csv.DictReader(csvfile, delimiter=',')
-        # replace('\0','')
-        # reader = csv.reader(replace(x, '\0','') for x in csvfile)
         array=[]
         dates=[]
         stops=[]
@@ -39,9 +36,6 @@ with open('out.csv', 'wb') as f: # output csv file
 
 dates = set(dates)
 f.close()
-# print stops
-# with open('out.csv', 'r') as csvfile:
-#     reader = csv.DictReader(csvfile, delimiter=',')
 print len(stops)
 for stop in set(stops):
     buses={}
@@ -96,7 +90,6 @@ for stop in set(stops):
 
         for i in final:
             born = datetime.datetime.strptime(i[0], '%Y-%m-%d').weekday()
-            # print ()
             f.write("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s\n"%(i[0], calendar.day_name[born], i[1], i[2], i[3], i[4], i[5], i[6], i[7], i[8], i[9], i[10], i[11], i[12], i[13], i[14], i[15], i[16], i[17], i[18]))
     f.close()
 
