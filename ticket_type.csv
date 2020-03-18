@@ -1,0 +1,11 @@
+ticket_type_id,ticket_type_name,status,notes,deleted_status,created_by,created_date,updated_by,updated_date,sync_updated_date
+0,Trip Types_I,ACTIVE,Trip Start or Trip Close or Trip Cancel ,0,1,2014-03-05 15:10:00,1,2014-03-19 18:41:00,2014-08-21 17:04:00
+1,Passenger Ticket,ACTIVE,Passenger Ticket,0,1,2014-03-05 15:10:00,1,2014-03-19 18:41:00,2014-08-21 17:04:00
+2,Luggage Ticket,ACTIVE,Luggage Ticket,0,1,2014-03-19 13:12:00,0,2014-08-21 17:04:00,2014-08-21 17:04:00
+3,Group Ticket,ACTIVE,Group Ticket,0,1,2014-07-02 15:28:00,1,2014-07-02 15:48:00,2014-08-21 17:04:00
+4,Pass Ticket,ACTIVE,Pass Ticket,0,1,2014-07-02 15:29:00,0,2014-09-03 12:48:00,2014-09-03 12:48:00
+5,Line Checking,ACTIVE,Line Checking,0,1,2014-07-02 15:29:00,0,2014-09-03 12:48:00,2014-09-03 12:48:00
+6,Penalty Ticket,ACTIVE,Penalty Ticket,0,1,2014-07-02 15:29:00,0,2014-09-03 12:46:00,2014-09-03 12:46:00
+7,Trip Types,ACTIVE,Stage Close or Special Ticket,0,1,2014-07-02 15:29:00,0,2014-09-03 12:46:00,2014-09-03 12:46:00
+8,Toll Pass,ACTIVE,Toll Pass Ticket,0,2,2015-08-21 15:49:00,2,2015-08-21 15:53:00,2016-03-22 15:05:00
+11,Special Ticket,Active,,0,41,2016-05-21 13:11:00,0,2016-05-21 13:11:00,2016-05-21 13:11:00
